@@ -1,0 +1,19 @@
+{
+  "name": "iconthai",
+  "version": "1.0",
+  "description": "Thai Icon Font, Designed for every one.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iconthai/iconthai.github.io.git"
+  },
+  "author": "Nutn0n",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/iconthai/iconthai.github.io/issues"
+  },
+  "homepage": "https://github.com/iconthai/iconthai.github.io#readme"
+}

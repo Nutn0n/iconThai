@@ -1,7 +1,7 @@
 <img src="banner.svg" alt="logo" align="center"/>
 
 <div align="center"><h2>iconThai Font</h2>
-<p>A lightweight font, design for Thai<p></div>
+<p>A lightweight icon font, designed for everyone.<p></div>
 
 <br />
 <div align="center">
@@ -31,7 +31,6 @@ npm install icon-thai --save
 ```
 
 ## Example Usage
-
 
 ### HTML file
 ```javascript
@@ -70,13 +69,11 @@ moleFetch.getCacheResponse('facebook',false).then((value) => {
 | 15+ (Flag) | 55+ | 49+ | 10.1+ | 47+
 
 
-
 ## Contribution
 
-If you’ve found an error in this library, please file an issue at: https://github.com/thangman22/mole-fetch/issues
+If you’ve found an error in this library, please file an issue at: https://github.com/Nutn0n/iconThai/issues
 
 Patches are encouraged, and may be submitted by forking this project and submitting a pull request through GitHub.
-
 
 
 ## License
