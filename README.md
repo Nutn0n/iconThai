@@ -27,52 +27,56 @@
 <br />
 
 
-## Installation
+# Setup & Usage
 
-If you're using npm
+## Step 1 Install icon font
+
+icon-thai is published in npm and yarn, so you can easily download it, using your preferred package manager:
+
+### Using npm
 ```
 npm install icon-thai --save
 ```
 
-or if you're using yarn
-
+### Using yarn
 ```
 yarn add icon-thai
 ```
 
-## Example Usage
+After downloading icon-thai.css, add a stylesheet link then path to your package directory and use it for your project.
 
-### HTML file
-```javascript
-const moleFetch = new MoleFetch()
 
-function fetchFacebook() {
-    //Call sendRequest for request HTTP
-    moleFetch.sendRequest('facebook', 'http://localhost:5555/mock-api/online', false, 'GET')
-}
+Alternatively, you can use either GitCDN or RawGit to import the icon-font from icon-thai.css. Simply add one of the following references inside your HTML page's ```<head>``` tag:
 
-// Register Service Wokers
-if ('serviceWorker' in navigator && 'SyncManager' in window) {
-    navigator.serviceWorker.register("sw.js").then((registration) => {
-        console.log('Service Workers registration successful with scope: ', registration.scope)
-    }).catch(function(err) {
-        console.error('Service Workers registration failed: ', err)
-    })
-}
+### Using Rawgit
+```js
+<link rel="stylesheet" href="https://cdn.rawgit.com/jukbot/iconThai/d34cd0b8/icon-thai.css">
+```
 
-// Implement onResponse for recieve response from ServiceWorker when site is online
-moleFetch.onResponse('facebook').then((value) => {
-    document.getElementById("result").innerHTML = value;
-})
+### Using Rawgit
+```js
+<link rel="stylesheet" href="https://gitcdn.link/repo/jukbot/iconThai/master/icon-thai.css">
+```
 
-// Implement onResponse for recieve response from Cache when site is offline
-moleFetch.getCacheResponse('facebook',false).then((value) => {
-    document.getElementById("result").innerHTML = value;
-})
+You can also find icon-thai on cdnjs, which you can use to include it in your projects. We strongly suggest you add the following line inside your HTML page's
+
+
+### Using Rawgit (Recommended)
+```js
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/1.0.0/css/icon-thai.min.css">
 ```
 
 
-## Browser Supported
+## Step 2 Use it
+
+Just put icon-thai-icon-name into class attribute of ```<i>``` or ```<span>``` tag.
+
+```js
+<i class="icon-thai icon-thai-bhumibol-bridge"></i>
+```
+
+
+# Browser Supported
 
 | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/edge/edge.png" alt="IE / Edge" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>IE / Edge | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/firefox/firefox.png" alt="Firefox" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Firefox | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/chrome/chrome.png" alt="Chrome" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Chrome | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/safari/safari.png" alt="Safari" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Safari | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/opera/opera.png" alt="Opera" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Opera | 
 | ---------: | ---------: | ---------: | ---------: | ---------:
@@ -83,17 +87,16 @@ Note: Edge and Safari is not supported service worker.
 Reference: http://caniuse.com/#search=%40font-face
 
 
-
-## Contribution
+# Contribution
 
 If you’ve found an error in this library, please file an issue at: https://github.com/iconthai/iconThai/issues
 
 Patches are encouraged, and may be submitted by forking this project and submitting a pull request through GitHub.
 
 
-## License
+# License
 
-Copyright 2015-2017 Nattanon.
+Copyright 2017 Nattanon.
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at
 

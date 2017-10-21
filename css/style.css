@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+
 * {
 	box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -11,18 +13,46 @@ pre {
 	border-left: .25rem solid #202020;
 }
 
-.copyright {
+mark {
+	margin: 0.75rem 0.5rem;
+	padding: 2px 6px;
+}
+
+.body-text {
+	margin-bottom: 2rem;
+}
+
+.footer-text {
 	color: #888888;
 	font-weight: 300;
-	font-size: 1rem;
+	font-size: 0.8rem;
+}
+
+.main-title {
+	font-family: 'Sriracha', cursive;
+	font-size: 2.75rem;
 }
 
 .title {
-	font-size: 2.5rem;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
 }
 
-.topic {
-	margin: 50px 0 25px 0;
+.step-title {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.version {
+	display: inline-block;
+	border-radius: 4px;
+	border: 1px solid #f46c0e;;
+	padding: 0 8px;
+	color: #f46c0e;
+}
+
+.group {
+	margin: 0 0 3rem 0;
 }
 
 .description {
@@ -30,20 +60,29 @@ pre {
 }
 
 .full-height {
-	height: 100vh;
+	height: auto;
+	min-height: 100vh;
 }
 
 .half-height {
-	height: 50vh;
+	height: auto;
+	min-height: 50vh;
 }
 
 .flex-container {
-	height: 100vh;
+	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	align-content: center;
-	flex-direction: column;
+}
+
+.half-flex-container {
+	min-height: 50vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 }
 
 .white-section {
@@ -71,46 +110,52 @@ pre {
 	width: 180px;
 }
 
-.button  {
+a.button, .button  {
+	position: relative;
 	display: inline-block;
 	width: 230px;
-	box-sizing: border-box;
-	font-size: 1.3rem;
-	font-weight: 300;
-}
-
-.version {
-	display: inline-block;
-    position: relative;
-	border-radius: 3px;
-	border: 1px solid #f46c0e;;
-	padding: 0 7px;
-	color: #f46c0e;
-}
-
-.outline {
-	width: 230px;
-	box-sizing: border-box;
-	font-size: 1.3rem;
-	font-weight: 300;
 	height: 50px;
-	border-radius: 5px;
-	display: inline-block;
 	box-sizing: border-box;
-	border: 1px solid #202020;
-	background-color: transparent;
-	margin: 0;
+	font-size: 1.3rem;
+	font-weight: 300;
+	border-radius: 4px;
 }
 
-.iconThai:hover { 
+a.button-outline , .button-outline {
+	position: relative;
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-size: 1.3rem;
+	font-weight: 300;
+	border-radius: 4px;
+	border: 1px solid #202020;
+	color: #202020;
+	background-color: transparent;
+	line-height: 2.2rem;
+    white-space: nowrap;
+	vertical-align: middle;
+	padding: 6px 12px;
+}
+
+a.button-outline:visited, .button-outline:visited {
+	color: #202020;
+}
+a.button-outline:hover, a.button-outline:focus, .button-outline:hover, .button-outline:focus {
+    background-color: #202020;
+    color: #ffffff;
+	border-color: #fff;
+	opacity: 1;
+}
+
+.demo-icon:hover { 
 	color: #f46c0e; 
 }
 
-.iconThai {
+.demo-icon {
 	font-size: 5rem;
-	margin: 10px;
-	display: inline-grid;
+	margin: 1rem;
+	display: inline-block;
 }
-
-
-

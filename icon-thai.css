@@ -10,7 +10,7 @@
 	font-size: normal;
 }
 
-[class^="iconThai-"], [class*=" iconThai-"] {
+[class^="icon-thai-"], [class*=" icon-thai-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
 	font-family: 'iconThai' !important;
 	font-style: normal;
@@ -22,69 +22,74 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
-.iconThai-bhumibol-bridge:before {
+.icon-thai {
+	font-size: 2rem;
+	display: inline-block;
+}
+
+.icon-thai-bhumibol-bridge:before {
 	content: "\e900";
 }
-.iconThai-biyoke:before {
+.icon-thai-biyoke:before {
 	content: "\e901";
 }
-.iconThai-buddah-head:before {
+.icon-thai-buddha-head:before {
 	content: "\e902";
 }
-.iconThai-buddah-montol:before {
+.icon-thai-buddha-montol:before {
 	content: "\e903";
 }
-.iconThai-democracy-monument:before {
+.icon-thai-democracy-monument:before {
 	content: "\e904";
 }
-.iconThai-doi-suthep:before {
+.icon-thai-doi-suthep:before {
 	content: "\e905";
 }
-.iconThai-golden-mount:before {
+.icon-thai-golden-mount:before {
 	content: "\e906";
 }
-.iconThai-hualamphong:before {
+.icon-thai-hualamphong:before {
 	content: "\e907";
 }
-.iconThai-mahanakorn:before {
+.icon-thai-mahanakorn:before {
 	content: "\e908";
 }
-.iconThai-monk:before {
+.icon-thai-monk:before {
 	content: "\e909";
 }
-.iconThai-myanmar-style-temple:before {
+.icon-thai-myanmar-style-temple:before {
 	content: "\e90a";
 }
-.iconThai-pang-leela:before {
+.icon-thai-pang-leela:before {
 	content: "\e90b";
 }
-.iconThai-pang-marnwichai:before {
+.icon-thai-pang-marnwichai:before {
 	content: "\e90c";
 }
-.iconThai-pathomjade:before {
+.icon-thai-pathomjade:before {
 	content: "\e90d";
 }
-.iconThai-rama5:before {
+.icon-thai-rama5:before {
 	content: "\e90e";
 }
-.iconThai-rama8-bridge:before {
+.icon-thai-rama8-bridge:before {
 	content: "\e90f";
 }
-.iconThai-temple:before {
+.icon-thai-temple:before {
 	content: "\e910";
 }
-.iconThai-thammasat:before {
+.icon-thai-thammasat:before {
 	content: "\e911";
 }
-.iconThai-tuktuk:before {
+.icon-thai-tuktuk:before {
 	content: "\e912";
 }
-.iconThai-victory-monument:before {
+.icon-thai-victory-monument:before {
 	content: "\e913";
 }
-.iconThai-wat-arun:before {
+.icon-thai-wat-arun:before {
 	content: "\e914";
 }
-.iconThai-wat-prakaew:before {
+.icon-thai-wat-prakaew:before {
 	content: "\e915";
 }
