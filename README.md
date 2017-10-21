@@ -1,13 +1,15 @@
-<img src="banner.svg" alt="logo" align="center"/>
-
-<div align="center"><h2>iconThai Font</h2>
-<p>A lightweight icon font, designed for everyone.<p></div>
-
-<br />
+<div  align="center">
+<img src="images/logo.svg" alt="logo" align="center" style="width:200px; margin-top:50px;"/>
+<h1>iconThai</h1>
+<h3>A premium open source Thai style font-icon, designed for everyone.</h3></div>
 <div align="center">
   <!-- NPM Version -->
   <a href="https://badge.fury.io/js/mole-fetch">
     <img src="https://badge.fury.io/js/mole-fetch.svg" alt="npm version" />
+  </a>
+  <!-- Release -->
+  <a href="https://github.com/jukbot/smart-industry/releases/">
+    <img src="https://img.shields.io/github/release/jukbot/smart-industry/all.svg" alt="npm version" />
   </a>
   <!-- Download -->
   <a href="https://www.npmjs.com/package/mole-fetch">
