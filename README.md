@@ -1,5 +1,5 @@
 <div  align="center">
-<img src="images/logo.svg" alt="logo" align="center" style="width:200px; margin-top:50px;"/>
+<img src="images/logo.svg" alt="logo" align="center" style="width:200px; height:200px; margin-top:50px;"/>
 <h1>iconThai</h1>
 <h3>A premium open source Thai style font-icon, designed for everyone.</h3></div>
 <div align="center">
