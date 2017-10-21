@@ -1,5 +1,5 @@
 <div  align="center">
-<img src="images/logo.svg" alt="logo" align="center" style="width:200px; height:200px; margin-top:50px;"/>
+<img src="images/logo.png" alt="logo" align="center" style="margin-top:50px;"/>
 <h1>iconThai</h1>
 <h3>A premium open source Thai style font-icon, designed for everyone.</h3></div>
 <div align="center">
@@ -28,8 +28,16 @@
 
 
 ## Installation
+
+If you're using npm
 ```
 npm install icon-thai --save
+```
+
+or if you're using yarn
+
+```
+yarn add icon-thai
 ```
 
 ## Example Usage
@@ -68,12 +76,17 @@ moleFetch.getCacheResponse('facebook',false).then((value) => {
 
 | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/edge/edge.png" alt="IE / Edge" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Edge | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/firefox/firefox.png" alt="Firefox" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Firefox | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/chrome/chrome.png" alt="Chrome" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Chrome | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/safari/safari.png" alt="Safari" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Safari | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/opera/opera.png" alt="Opera" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Opera | 
 | ---------: | ---------: | ---------: | ---------: | ---------:
-| 15+ (Flag) | 55+ | 49+ | 10.1+ | 47+
+| 16+ | 54+ | 43+ | 11+ | 48+
+
+Note: Edge and Safari is not supported service worker.
+
+Reference: http://caniuse.com/#search=%40font-face
+
 
 
 ## Contribution
 
-If you’ve found an error in this library, please file an issue at: https://github.com/Nutn0n/iconThai/issues
+If you’ve found an error in this library, please file an issue at: https://github.com/iconthai/iconThai/issues
 
 Patches are encouraged, and may be submitted by forking this project and submitting a pull request through GitHub.
 

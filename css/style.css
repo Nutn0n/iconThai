@@ -72,6 +72,7 @@ pre {
 }
 
 .button  {
+	display: inline-block;
 	width: 230px;
 	box-sizing: border-box;
 	font-size: 1.3rem;
@@ -109,7 +110,6 @@ pre {
 	font-size: 5rem;
 	margin: 10px;
 	display: inline-grid;
-
 }
 
 
