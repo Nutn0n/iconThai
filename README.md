@@ -4,20 +4,20 @@
 <h3>A premium open source Thai style font-icon, designed for everyone.</h3></div>
 <div align="center">
   <!-- NPM Version -->
-  <a href="https://badge.fury.io/js/mole-fetch">
-    <img src="https://badge.fury.io/js/mole-fetch.svg" alt="npm version" />
+  <a href="https://badge.fury.io/js/icon-thai">
+    <img src="https://badge.fury.io/js/icon-thai.svg" alt="npm version" />
   </a>
   <!-- Release -->
-  <a href="https://github.com/jukbot/smart-industry/releases/">
-    <img src="https://img.shields.io/github/release/jukbot/smart-industry/all.svg" alt="npm version" />
+  <a href="https://github.com/jukbot/iconThai/releases/">
+    <img src="https://img.shields.io/github/release/jukbot/iconThai/all.svg" alt="npm version" />
   </a>
   <!-- Download -->
-  <a href="https://www.npmjs.com/package/mole-fetch">
-    <img src="http://img.shields.io/npm/dm/mole-fetch.svg" alt="Downloads" />
+  <a href="https://www.npmjs.com/package/iconThai">
+    <img src="http://img.shields.io/npm/dm/iconThai.svg" alt="Downloads" />
   </a>
   <!-- Quality -->
-  <a href="http://packagequality.com/#?package=mole-fetch">
-    <img src="http://npm.packagequality.com/shield/mole-fetch.svg" alt="Package Quality" />
+  <a href="http://packagequality.com/#?package=icon-thai">
+    <img src="http://npm.packagequality.com/shield/icon-thai.svg" alt="Package Quality" />
   </a>
     <!-- License -->
   <a href="https://opensource.org/licenses/Apache-2.0">
@@ -81,8 +81,6 @@ Just put icon-thai-icon-name into class attribute of ```<i>``` or ```<span>``` t
 | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/edge/edge.png" alt="IE / Edge" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>IE / Edge | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/firefox/firefox.png" alt="Firefox" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Firefox | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/chrome/chrome.png" alt="Chrome" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Chrome | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/safari/safari.png" alt="Safari" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Safari | [<img src="https://cdn.rawgit.com/alrra/browser-logos/f50d4cc8/src/opera/opera.png" alt="Opera" width="64px" height="64px" />](http://caniuse.com/#feat=fetch)</br>Opera | 
 | ---------: | ---------: | ---------: | ---------: | ---------:
 | 11+ | 54+ | 43+ | 11+ | 48+
-
-Note: Edge and Safari is not supported service worker.
 
 Reference: http://caniuse.com/#search=%40font-face
 
