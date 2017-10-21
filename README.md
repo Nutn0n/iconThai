@@ -49,12 +49,12 @@ After downloading icon-thai.css, add a stylesheet link then path to your package
 Alternatively, you can use either GitCDN or RawGit to import the icon-font from icon-thai.css. Simply add one of the following references inside your HTML page's ```<head>``` tag:
 
 ### Using Rawgit
-```js
+```html
 <link rel="stylesheet" href="https://cdn.rawgit.com/jukbot/iconThai/d34cd0b8/icon-thai.css">
 ```
 
 ### Using Rawgit
-```js
+```html
 <link rel="stylesheet" href="https://gitcdn.link/repo/jukbot/iconThai/master/icon-thai.css">
 ```
 
@@ -62,7 +62,7 @@ You can also find icon-thai on cdnjs, which you can use to include it in your pr
 
 
 ### Using Rawgit (Recommended)
-```js
+```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/1.0.0/css/icon-thai.min.css">
 ```
 
@@ -71,7 +71,7 @@ You can also find icon-thai on cdnjs, which you can use to include it in your pr
 
 Just put icon-thai-icon-name into class attribute of ```<i>``` or ```<span>``` tag.
 
-```js
+```html
 <i class="icon-thai icon-thai-bhumibol-bridge"></i>
 ```
 
