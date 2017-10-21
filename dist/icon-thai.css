@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'iconThai';
-	src:url('fonts/iconThai.eot?1phl22');
-	src:url('fonts/iconThai.eot?1phl22#iefix') format('embedded-opentype'),
-		url('fonts/iconThai.ttf?1phl22') format('truetype'),
-		url('fonts/iconThai.woff?1phl22') format('woff'),
-		url('fonts/iconThai.svg?1phl22#iconThai') format('svg');
+	src:url('/fonts/iconThai.eot?1phl22');
+	src:url('/fonts/iconThai.eot?1phl22#iefix') format('embedded-opentype'),
+		url('/fonts/iconThai.ttf?1phl22') format('truetype'),
+		url('/fonts/iconThai.woff?1phl22') format('woff'),
+		url('/fonts/iconThai.svg?1phl22#iconThai') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-size: normal;
