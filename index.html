@@ -6,15 +6,22 @@
 	<title>iconThai</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1">
 	<meta name="description" content="A premium open source Thai style font icon, designed for everyone.">
-	<meta name="author" content="Nutn0n">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://jukbot.github.io/iconThai/" />
+	<meta property="og:title" content="iconThai" />
+	<meta property="og:description" content="A premium open source Thai style font icon, designed for everyone." />
+	<meta property="og:image" content="images/thumbnail.png" />
+	<meta name=”twitter:site” content=”@iconThai”>
+	<meta property="og:url" content="https://jukbot.github.io/iconThai/" />
+	<meta property="og:title" content="iconThai" />
+	<meta property="og:description" content="A premium open source Thai style font icon, designed for everyone." />
+	<meta property="og:image" content="images/thumbnail.png" />
 	<link rel="shortcut icon" href="images/favicon.png" />
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/2.3.6/mini-default.min.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
 	<link rel="stylesheet" href="dist/icon-thai.css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 </head>
 
 <body>
@@ -24,11 +31,9 @@
 				<div class="flex-container">
 					<div class="section">
 						<img src="images/logo.svg" alt="logo" id="logo" class="logo">
-						<div class="title-box">
-							<h1 class="main-title" id="title" data-hover="ไอคอนไทย">
-								IconThai
-							</h1>
-						</div>
+						<h1 class="main-title" id="title" data-hover="ไอคอนไทย">
+							IconThai
+						</h1>
 						<div class="version">Release 1.0.0</div>
 						<h3 class="description">A premium open source Thai style font-icon, designed for everyone.</h3>
 						<a href="https://github.com/jukbot/iconThai/archive/1.0.0.zip" rel="noopener" target="_blank" class="button inverse">
@@ -44,7 +49,7 @@
 		<div class="container">
 			<div class="row group">
 				<div class="col-sm-12 center">
-					<h1 class="title">Setup &amp; Usage</h1>
+					<h1 class="section-title">Setup &amp; Usage</h1>
 				</div>
 				<div class="col-sm-12">
 					<h2 class="step-title">Step 1 Install icon font</h2>
@@ -101,7 +106,7 @@
 		<div class="container">
 			<div class="row group">
 				<div class="col-sm-12 center">
-					<h1 class="title">Example Icons</h1>
+					<h1 class="section-title">Example Icons</h1>
 					<span data-balloon="icon-thai-bhumibol-bridge" data-balloon-pos="down">
 						<i class="demo-icon icon-thai-bhumibol-bridge" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
 					</span>
@@ -178,7 +183,7 @@
 				<div class="col-sm-12 center">
 					<div class="half-flex-container">
 						<div class="section">
-							<h1 class="title">Contribute this project</h1>
+							<h1 class="section-title">Contribute this project</h1>
 							<p class="body-text">If you like iconThai, remember that you can show your support by starring it on Github. It means a lot to us and it
 								only takes a couple of seconds!</p>
 							<a href="https://github.com/jukbot/iconThai" rel="noopener" target="_blank" class="button-outline">
@@ -192,19 +197,25 @@
 	<footer class="center grey-section">
 		<p class="footer-text">Designed and built by Nutn0n | Project licensed under the Apache 2.0.</p>
 	</footer>
-	<span id="toast" class="toast small">Copied to clipboard</span>
+	<span id="toast" class="toast small">Copied to your clipboard</span>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 	<script>
-		const toast = document.getElementById('toast');
 		const logo = document.getElementById('logo');
 		const title = document.getElementById('title');
+		logo.addEventListener("mouseover", () => {
+			title.innerText = "ไอคอนไทย";
+		});
+		logo.addEventListener("mouseout", () => {
+			title.innerText = "IconThai";
+		});
+		const toast = document.getElementById('toast');
 		const clipboard = new Clipboard('.demo-icon');
 		clipboard.on('success', (e) => {
-			//console.log(e);
 			let start = Date.now();
-			toast.style.opacity = "1";
+			toast.style.opacity = "0.95";
 			let timer = setInterval(() => {
 				let timePassed = Date.now() - start;
-				if (timePassed >= 700) {
+				if (timePassed >= 1000) {
 					clearInterval(timer);
 					return;
 				}
@@ -213,12 +224,6 @@
 		});
 		clipboard.on('error', (e) => {
 			console.log(e);
-		});
-		logo.addEventListener("mouseover", () => {
-			title.innerText = "ไอคอนไทย";
-		});
-		logo.addEventListener("mouseout", () => {
-			title.innerText = "IconThai";
 		});
 	</script>
 </body>

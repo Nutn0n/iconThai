@@ -1,103 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Sriracha');
-
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+*, *:before, *:after {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
 }
-
 body {
 	color: #202020;
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
 }
-
 pre {
 	border-left: .25rem solid #202020;
 }
-
 mark {
 	margin: 0.75rem 0.5rem;
 	padding: 2px 6px;
 }
-
-.body-text {
-	margin-bottom: 2rem;
+.center {
+	text-align: center;
 }
-
-.footer-text {
-	color: #888888;
-	font-weight: 300;
-	font-size: 0.8rem;
+.container {
+	max-width: 980px;
 }
-
-.title-box {
-	display: block;
-	height: 4.5rem;
+.logo {
+	width: 180px;
 }
-
-.main-title {
-	font-family: 'Sriracha', cursive;
-	font-size: 2.75rem;
-}
-
-[data-balloon][data-balloon-pos='down']:before {
-	display: none;
-}
-
-[data-balloon][data-balloon-pos='down']:hover:after, [data-balloon][data-balloon-pos='down'][data-balloon-visible]:after {
-    -webkit-transform: translate(-50%, 25%);
-    -moz-transform: translate(-50%, 25%);
-    -ms-transform: translate(-50%, 25%);
-	transform: translate(-50%, 25%);
-	opacity: 0.95;
-}
-
-.title {
-	margin-top: 3rem;
-	margin-bottom: 1rem;
-}
-
-.step-title {
-	margin-top: 2rem;
-	margin-bottom: 1rem;
-}
-
-.version {
-	display: inline-block;
-	border-radius: 4px;
-	border: 1px solid #f46c0e;;
-	padding: 0 8px;
-	color: #f46c0e;
-}
-
-.group {
-	padding: 0 0 3rem 0;
-}
-
-.description {
-	font-weight: 300;	
-}
-
-.toast {
-	opacity: 0;
-    -webkit-transition: all .15s ease-in-out;
-    -moz-transition: all .15s ease-in-out;
-    -ms-transition: all .15s ease-in-out;
-    -o-transition: all .15s ease-in-out;
-    transition: all .15s ease-in-out;
-}
-
 .full-height {
 	height: auto;
 	min-height: 100vh;
 }
-
 .half-height {
 	height: auto;
 	min-height: 50vh;
 }
-
 .flex-container {
 	min-height: 100vh;
 	display: flex;
@@ -105,7 +40,6 @@ mark {
 	align-items: center;
 	align-content: center;
 }
-
 .half-flex-container {
 	min-height: 50vh;
 	display: flex;
@@ -113,101 +47,131 @@ mark {
 	align-items: center;
 	align-content: center;
 }
-
 .white-section {
-	background-color: #ffffff;
+	background-color: #FFFFFF;
 }
-
 .grey-section {
 	background-color: #F8F8F8;
 }
-
+.body-text {
+	margin-bottom: 2rem;
+}
+.footer-text {
+	color: #888888;
+	font-size: 0.8rem;
+}
+.main-title {
+	font-family: 'Sriracha', cursive;
+	font-size: 2.75rem;
+}
+.section-title {
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+.step-title {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+.version {
+	display: inline-block;
+	border-radius: 4px;
+	border: 1px solid #f46c0e;
+	padding: 0 8px;
+	color: #f46c0e;
+}
+[data-balloon][data-balloon-pos='down']:before {
+	display: none;
+}
+[data-balloon][data-balloon-pos='down']:after {
+	border-radius: 1.5rem;
+}
+[data-balloon][data-balloon-pos='down']:hover:after, [data-balloon][data-balloon-pos='down'][data-balloon-visible]:after {
+	-webkit-transform: translate(-50%, 25%);
+	-moz-transform: translate(-50%, 25%);
+	-ms-transform: translate(-50%, 25%);
+	transform: translate(-50%, 25%);
+	opacity: 0.95;
+}
+.group {
+	padding: 0 0 3rem 0;
+}
+.description {
+	font-weight: 300;
+}
+.toast {
+	opacity: 0;
+	-webkit-transition: all .15s ease-in-out;
+	-moz-transition: all .15s ease-in-out;
+	-ms-transition: all .15s ease-in-out;
+	-o-transition: all .15s ease-in-out;
+	transition: all .15s ease-in-out;
+}
 .fa {
 	padding-right: 7px;
 	font-size: 1.5rem;
 }
-
-.center {
-	text-align: center;
-}
-
-.container {
-	max-width: 980px;
-}
-
-.logo {
-	width: 180px;
-}
-
-a.button, .button  {
-	position: relative;
-	display: inline-block;
+a.button {
 	width: 200px;
 	height: 50px;
-	line-height: 2rem;
-	box-sizing: border-box;
-	font-size: 1.3rem;
+	line-height: 2.2rem;
+	font-size: 1.25rem;
 	font-weight: 300;
 	border-radius: 4px;
 }
-
-a.button-outline , .button-outline {
-	position: relative;
+a.button-outline {
 	display: inline-block;
 	width: 200px;
 	height: 50px;
-	box-sizing: border-box;
 	text-decoration: none;
-	font-size: 1.3rem;
+	font-size: 1.25rem;
 	font-weight: 300;
 	border-radius: 4px;
 	border: 1px solid #202020;
 	color: #202020;
 	background-color: transparent;
-	line-height: 2rem;
-    white-space: nowrap;
-	vertical-align: middle;
+	line-height: 2.2rem;
 	padding: 6px 12px;
 }
-
-a.button-outline:visited, .button-outline:visited {
+a.button-outline:visited {
 	color: #202020;
 }
-a.button-outline:hover, a.button-outline:focus, .button-outline:hover, .button-outline:focus {
-    background-color: #202020;
-    color: #ffffff;
+a.button-outline:hover, a.button-outline:focus {
+	background-color: #202020;
+	color: #ffffff;
 	border-color: #fff;
 	opacity: 1;
 }
-
-.demo-icon:hover { 
-	background: #2C3E50;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to bottom, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to bottom, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */			
+.toast.small {
+	border-radius: 1.5rem;
+	font-size: 1rem;
+}
+.demo-icon:hover {
+	background: #2C3E50;
+	background: -webkit-linear-gradient(to top, #ffa751, #ffe259);
+	background: linear-gradient(to top, #ffa751, #ffe259);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: transparent;
 	-webkit-transition: all 150ms ease-in;
-    -webkit-transform: scale(1.25);
-    -ms-transition: all 150ms ease-in;
-    -ms-transform: scale(1.25);   
-    -moz-transition: all 150ms ease-in;
-    -moz-transform: scale(1.25);
-    transition: all 150ms ease-in;
-    transform: scale(1.25);
+	-webkit-transform: scale(1.25);
+	-ms-transition: all 150ms ease-in;
+	-ms-transform: scale(1.25);
+	-moz-transition: all 150ms ease-in;
+	-moz-transform: scale(1.25);
+	transition: all 150ms ease-in;
+	transform: scale(1.25);
 }
-
 .demo-icon {
-	font-size: 5rem;
+	font-size: 4.75rem;
 	margin: 1.75rem;
 	display: inline-block;
 	position: relative;
-    -webkit-transition: all 150ms ease-in;
-    -webkit-transform: scale(1); 
-    -ms-transition: all 150ms ease-in;
-    -ms-transform: scale(1); 
-    -moz-transition: all 150ms ease-in;
-    -moz-transform: scale(1);
-    transition: all 150ms ease-in;
-    transform: scale(1);  
+	-webkit-transition: all 150ms ease-in;
+	-webkit-transform: scale(1);
+	-ms-transition: all 150ms ease-in;
+	-ms-transform: scale(1);
+	-moz-transition: all 150ms ease-in;
+	-moz-transform: scale(1);
+	transition: all 150ms ease-in;
+	transform: scale(1);
 }
