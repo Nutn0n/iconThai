@@ -82,7 +82,7 @@
 					<h3>Using CDNJS</h3>
 					<mark class="tertiary">Recommended</mark>
 
-					<pre>&lt;<span class="fore-tertiary">link</span> <span class="fore-secondary">rel</span>=<span class="fore-primary">"stylesheet"</span> <span class="fore-secondary">href</span>=<span class="fore-primary">"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/1.0.0/css/icon-thai.min.css"</span>&gt;</pre>
+					<pre>&lt;<span class="fore-tertiary">link</span> <span class="fore-secondary">rel</span>=<span class="fore-primary">"stylesheet"</span> <span class="fore-secondary">href</span>=<span class="fore-primary">"https://cdnjs.cloudflare.com/ajax/libs/icon-thai/1.0.0/css/icon-thai.min.css"</span>&gt;</pre>
 
 					<p>Finally, now you can use icon-font from
 						<strong>icon-thai.css</strong>
@@ -198,11 +198,11 @@
 		const logo = document.getElementById('logo');
 		const title = document.getElementById('title');
 		const clipboard = new Clipboard('.demo-icon');
-		clipboard.on('success', function (e) {
+		clipboard.on('success', (e) => {
 			//console.log(e);
 			let start = Date.now();
 			toast.style.opacity = "1";
-			let timer = setInterval(function () {
+			let timer = setInterval(() => {
 				let timePassed = Date.now() - start;
 				if (timePassed >= 700) {
 					clearInterval(timer);
@@ -211,7 +211,7 @@
 				toast.style.opacity = "0";
 			}, 500);
 		});
-		clipboard.on('error', function (e) {
+		clipboard.on('error', (e) => {
 			console.log(e);
 		});
 		logo.addEventListener("mouseover", () => {
