@@ -14,6 +14,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="dist/icon-thai.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
 </head>
 
 <body>
@@ -22,8 +23,12 @@
 			<div class="col-sm-12 center">
 				<div class="flex-container">
 					<div class="section">
-						<img src="images/logo.svg" alt="logo" class="logo">
-						<h1 class="main-title">IconThai</h1>
+						<img src="images/logo.svg" alt="logo" id="logo" class="logo">
+						<div class="title-box">
+							<h1 class="main-title" id="title" data-hover="ไอคอนไทย">
+								IconThai
+							</h1>
+						</div>
 						<div class="version">Release 1.0.0</div>
 						<h3 class="description">A premium open source Thai style font-icon, designed for everyone.</h3>
 						<a href="https://github.com/jukbot/iconThai/archive/1.0.0.zip" rel="noopener" target="_blank" class="button inverse">
@@ -98,70 +103,70 @@
 				<div class="col-sm-12 center">
 					<h1 class="title">Example Icons</h1>
 					<span data-balloon="icon-thai-bhumibol-bridge" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-bhumibol-bridge"></i>
+						<i class="demo-icon icon-thai-bhumibol-bridge" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
 					</span>
 					<span data-balloon="icon-thai-biyoke" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-biyoke"></i>
+						<i class="demo-icon icon-thai-biyoke" data-clipboard-text="icon-thai-biyoke"></i>
 					</span>
 					<span data-balloon="icon-thai-buddha-head" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-buddha-head"></i>
+						<i class="demo-icon icon-thai-buddha-head" data-clipboard-text="icon-thai-buddha-head"></i>
 					</span>
 					<span data-balloon="icon-thai-buddha-montol" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-buddha-montol"></i>
+						<i class="demo-icon icon-thai-buddha-montol" data-clipboard-text="icon-thai-buddha-montol"></i>
 					</span>
 					<span data-balloon="icon-thai-democracy-monument" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-democracy-monument"></i>
+						<i class="demo-icon icon-thai-democracy-monument" data-clipboard-text="icon-thai-democracy-monument"></i>
 					</span>
 					<span data-balloon="icon-thai-doi-suthep" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-doi-suthep"></i>
+						<i class="demo-icon icon-thai-doi-suthep" data-clipboard-text="icon-thai-doi-suthep"></i>
 					</span>
 					<span data-balloon="icon-thai-golden-mount" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-golden-mount"></i>
+						<i class="demo-icon icon-thai-golden-mount" data-clipboard-text="icon-thai-golden-mount"></i>
 					</span>
 					<span data-balloon="icon-thai-hualamphong" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-hualamphong"></i>
+						<i class="demo-icon icon-thai-hualamphong" data-clipboard-text="icon-thai-hualamphong"></i>
 					</span>
 					<span data-balloon="icon-thai-mahanakorn" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-mahanakorn"></i>
+						<i class="demo-icon icon-thai-mahanakorn" data-clipboard-text="icon-thai-mahanakorn"></i>
 					</span>
 					<span data-balloon="icon-thai-monk" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-monk"></i>
+						<i class="demo-icon icon-thai-monk" data-clipboard-text="icon-thai-monk"></i>
 					</span>
 					<span data-balloon="icon-thai-myanmar-style-temple" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-myanmar-style-temple"></i>
+						<i class="demo-icon icon-thai-myanmar-style-temple" data-clipboard-text="icon-thai-myanmar-style-temple"></i>
 					</span>
 					<span data-balloon="icon-thai-pang-leela" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-pang-leela"></i>
+						<i class="demo-icon icon-thai-pang-leela" data-clipboard-text="icon-thai-pang-leela"></i>
 					</span>
 					<span data-balloon="icon-thai-pang-marnwichai" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-pang-marnwichai"></i>
+						<i class="demo-icon icon-thai-pang-marnwichai" data-clipboard-text="icon-thai-pang-marnwichai"></i>
 					</span>
 					<span data-balloon="icon-thai-pathomjade" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-pathomjade"></i>
+						<i class="demo-icon icon-thai-pathomjade" data-clipboard-text="icon-thai-pathomjade"></i>
 					</span>
 					<span data-balloon="icon-thai-rama5" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-rama5"></i>
+						<i class="demo-icon icon-thai-rama5" data-clipboard-text="icon-thai-rama5"></i>
 					</span>
 					<span data-balloon="icon-thai-rama8-bridge" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-rama8-bridge"></i>
+						<i class="demo-icon icon-thai-rama8-bridge" data-clipboard-text="icon-thai-rama8-bridge"></i>
 					</span>
 					<span data-balloon="icon-thai-temple" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-temple"></i>
+						<i class="demo-icon icon-thai-temple" data-clipboard-text="icon-thai-temple"></i>
 					</span>
 					<span data-balloon="icon-thai-thammasat" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-thammasat"></i>
+						<i class="demo-icon icon-thai-thammasat" data-clipboard-text="icon-thai-thammasat"></i>
 					</span>
 					<span data-balloon="icon-thai-tuktuk" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-tuktuk"></i>
+						<i class="demo-icon icon-thai-tuktuk" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
 					</span>
 					<span data-balloon="icon-thai-victory-monument" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-victory-monument"></i>
+						<i class="demo-icon icon-thai-victory-monument" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
 					</span>
 					<span data-balloon="icon-thai-wat-arun" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-wat-arun"></i>
+						<i class="demo-icon icon-thai-wat-arun" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
 					</span>
 					<span data-balloon="icon-thai-wat-prakaew" data-balloon-pos="down">
-						<i class="demo-icon icon-thai-wat-prakaew"></i>
+						<i class="demo-icon icon-thai-wat-prakaew" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
 					</span>
 				</div>
 			</div>
@@ -176,7 +181,7 @@
 							<h1 class="title">Contribute this project</h1>
 							<p class="body-text">If you like iconThai, remember that you can show your support by starring it on Github. It means a lot to us and it
 								only takes a couple of seconds!</p>
-							<a href="https://github.com/iconthai/iconthai.github.io" rel="noopener" target="_blank" class="button-outline">
+							<a href="https://github.com/jukbot/iconThai" rel="noopener" target="_blank" class="button-outline">
 								<i class="fa fa-github" aria-hidden="true"></i> Visit Project</a>
 						</div>
 					</div>
@@ -187,7 +192,35 @@
 	<footer class="center grey-section">
 		<p class="footer-text">Designed and built by Nutn0n | Project licensed under the Apache 2.0.</p>
 	</footer>
-	<!-- <span class="toast small">This is a normal toast message!</span> -->
+	<span id="toast" class="toast small">Copied to clipboard</span>
+	<script>
+		const toast = document.getElementById('toast');
+		const logo = document.getElementById('logo');
+		const title = document.getElementById('title');
+		const clipboard = new Clipboard('.demo-icon');
+		clipboard.on('success', function (e) {
+			//console.log(e);
+			let start = Date.now();
+			toast.style.opacity = "1";
+			let timer = setInterval(function () {
+				let timePassed = Date.now() - start;
+				if (timePassed >= 700) {
+					clearInterval(timer);
+					return;
+				}
+				toast.style.opacity = "0";
+			}, 500);
+		});
+		clipboard.on('error', function (e) {
+			console.log(e);
+		});
+		logo.addEventListener("mouseover", () => {
+			title.innerText = "ไอคอนไทย";
+		});
+		logo.addEventListener("mouseout", () => {
+			title.innerText = "IconThai";
+		});
+	</script>
 </body>
 
 </html>
