@@ -53,7 +53,7 @@ Alternatively, you can use either GitCDN or RawGit to import the icon-font from 
 <link rel="stylesheet" href="https://cdn.rawgit.com/jukbot/iconThai/92f5c515/dist/icon-thai.css">
 ```
 
-### Using Rawgit
+### Using GitCDN
 ```html
 <link rel="stylesheet" href="https://gitcdn.link/repo/jukbot/iconThai/master/icon-thai.css">
 ```
@@ -61,7 +61,7 @@ Alternatively, you can use either GitCDN or RawGit to import the icon-font from 
 You can also find icon-thai on cdnjs, which you can use to include it in your projects. We strongly suggest you add the following line inside your HTML page's
 
 
-### Using Rawgit (Recommended)
+### Using CDNJS (Recommended)
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/1.0.0/css/icon-thai.min.css">
 ```
