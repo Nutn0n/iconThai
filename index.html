@@ -1,52 +1,231 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<title>iconThai</title>
-
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="demo-files/demo.css">
-	<link rel="stylesheet" href="style.css">
-	<!--[if lt IE 8]><!-->
-	<link rel="stylesheet" href="ie7/ie7.css">
-	<!--<![endif]-->
+	<meta name="viewport" content="width=device-width, initial-scale=1, initial-scale=1">
+	<meta name="description" content="A premium open source Thai style font icon, designed for everyone.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://jukbot.github.io/iconThai/" />
+	<meta property="og:title" content="iconThai" />
+	<meta property="og:description" content="A premium open source Thai style font icon, designed for everyone." />
+	<meta property="og:image" content="https://cdn.rawgit.com/jukbot/iconThai/master/images/thumbnail.png" />
+	<meta name=”twitter:site” content=”@iconThai”>
+	<meta property="og:url" content="https://jukbot.github.io/iconThai/" />
+	<meta property="og:title" content="iconThai" />
+	<meta property="og:description" content="A premium open source Thai style font icon, designed for everyone." />
+	<meta property="og:image" content="https://cdn.rawgit.com/jukbot/iconThai/master/images/thumbnail.png" />
+	<link rel="shortcut icon" href="images/favicon.png" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/2.3.6/mini-default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/balloon-css/0.5.0/balloon.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.min.css">
+	<link rel="stylesheet" href="dist/icon-thai.css">
 </head>
+
 <body>
+	<section class="full-height white-section">
+		<div class="row">
+			<div class="col-sm-12 center">
+				<div class="flex-container">
+					<div class="section">
+						<img src="images/logo.svg" alt="logo" id="logo" class="logo">
+						<h1 class="main-title" id="title" data-hover="ไอคอนไทย">
+							IconThai
+						</h1>
+						<div class="version">Release 1.0.1</div>
+						<h3 class="description">A premium open source Thai style font-icon, designed for everyone.</h3>
+						<a href="https://github.com/jukbot/iconThai/archive/1.0.0.zip" rel="noopener" target="_blank" class="button inverse">
+							<i class="fa fa-download" aria-hidden="true"></i> Download</a>
+						<a href="#getstarted" class="button">
+							<i class="fa fa-book" aria-hidden="true"></i> Getting started</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="full-height grey-section" id="getstarted">
+		<div class="container">
+			<div class="row group">
+				<div class="col-sm-12 center">
+					<h1 class="section-title">Setup &amp; Usage</h1>
+				</div>
+				<div class="col-sm-12">
+					<h2 class="step-title">Step 1 Install icon font</h2>
+					<p>
+						<strong>icon-thai</strong> is published in
+						<strong>npm</strong> and
+						<strong>yarn</strong>, so you can easily download it, using your preferred package manager:</p>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6">
+					<h3>Using npm</h3>
+					<pre>npm install icon-thai</pre>
+				</div>
+				<div class="col-sm-12 col-md-6 col-lg-6">
+					<h3>Using yarn</h3>
+					<pre>yarn add icon-thai</pre>
+				</div>
+				<div class="col-sm-12">
+					<p>After downloading icon-thai.css, add a stylesheet link then path to your package directory and use it for your project.</p>
+					<br>
 
-	<wrapper>
+					<p>Alternatively, you can use either
+						<strong>GitCDN</strong> or
+						<strong>RawGit</strong> to import the icon-font from
+						<strong>icon-thai.css</strong>. Simply add one of the following references inside your HTML page's
+						<code>&lt;head&gt;</code> tag:</p>
+					<h3>Using Rawgit</h3>
+					<pre>&lt;<span class="fore-tertiary">link</span> <span class="fore-secondary">rel</span>=<span class="fore-primary">"stylesheet"</span> <span class="fore-secondary">href</span>=<span class="fore-primary">"https://cdn.rawgit.com/jukbot/iconThai/92f5c515/dist/icon-thai.css"</span>&gt;</pre>
+					<h3>Using GitCDN</h3>
+					<pre>&lt;<span class="fore-tertiary">link</span> <span class="fore-secondary">rel</span>=<span class="fore-primary">"stylesheet"</span> <span class="fore-secondary">href</span>=<span class="fore-primary">"https://gitcdn.link/repo/jukbot/iconThai/master/icon-thai.css"</span>&gt;</pre>
 
-		<h1><span class="icon">icon</span><span class="thai">Thai</span> framework						<footer><a href="http://iconthai.com">Official Website</a></footer><h1>
+					<p>You can also find
+						<strong>icon-thai</strong> on
+						<a href="https://cdnjs.com/libraries/icon-thai" target="_blank">cdnjs</a>, which you can use to include it in your projects. We strongly suggest you add the following line inside
+						your HTML page's</p>
+					<h3>Using CDNJS</h3>
+					<mark class="tertiary">Recommended</mark>
 
+					<pre>&lt;<span class="fore-tertiary">link</span> <span class="fore-secondary">rel</span>=<span class="fore-primary">"stylesheet"</span> <span class="fore-secondary">href</span>=<span class="fore-primary">"https://cdnjs.cloudflare.com/ajax/libs/icon-thai/1.0.0/css/icon-thai.min.css"</span>&gt;</pre>
 
-		<section class="icondemo">
-			<span class="iconThai iconThai-bhumibhol-bridge"></span>
-			<span class="iconThai iconThai-biyoke"></span>
-			<span class="iconThai iconThai-buddah-head"></span>
-			<span class="iconThai iconThai-buddah-montol"></span>
-			<span class="iconThai iconThai-democracy-monument"></span>
-			<span class="iconThai iconThai-doi-suthep"></span>
-			<span class="iconThai iconThai-golden-mount"></span>
-			<span class="iconThai iconThai-hualamphong"></span>
-			<span class="iconThai iconThai-mahanakorn"></span>
-			<span class="iconThai iconThai-monk"></span>
-			<span class="iconThai conThai-myanmar-style-temple"></span>
-			<span class="iconThai iconThai-pang-leela"></span>
-			<span class="iconThai iconThai-pang-marnwichai"></span>
-			<span class="iconThai iconThai-pathomjade"></span>
-			<span class="iconThai iconThai-rama5"></span>
-			<span class="iconThai iconThai-rama8-bridge"></span>
-			<span class="iconThai iconThai-temple"></span>
-			<span class="iconThai iconThai-thammasat"></span>
-			<span class="iconThai iconThai-victory-monument"></span>
-			<span class="iconThai iconThai-wat-arun"></span>
-			<span class="iconThai iconThai-wat-prakaew"></span>
-		</section>
-
-				<div class="beta">Pre-release version</div>
-
-	</wrapper>
-
-
-	<script src="demo-files/demo.js"></script>
+					<p>Finally, now you can use icon-font from
+						<strong>icon-thai.css</strong>
+					</p>
+					<h2 class="step-title">Step 2 Use it</h2>
+					<p>Just put
+						<strong>icon-thai-icon-name</strong> into class attribute of
+						<code>&lt;i&gt;</code> or
+						<code>&lt;span&gt;</code> tag.</p>
+					<pre>&lt;i class="icon-thai icon-thai-bhumibol-bridge"&gt;&lt;/i&gt;</pre>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="half-height white-section">
+		<div class="container">
+			<div class="row group">
+				<div class="col-sm-12 center">
+					<h1 class="section-title">Example Icons</h1>
+					<span data-balloon="icon-thai-bhumibol-bridge" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-bhumibol-bridge" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
+					</span>
+					<span data-balloon="icon-thai-biyoke" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-biyoke" data-clipboard-text="icon-thai-biyoke"></i>
+					</span>
+					<span data-balloon="icon-thai-buddha-head" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-buddha-head" data-clipboard-text="icon-thai-buddha-head"></i>
+					</span>
+					<span data-balloon="icon-thai-buddha-montol" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-buddha-montol" data-clipboard-text="icon-thai-buddha-montol"></i>
+					</span>
+					<span data-balloon="icon-thai-democracy-monument" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-democracy-monument" data-clipboard-text="icon-thai-democracy-monument"></i>
+					</span>
+					<span data-balloon="icon-thai-doi-suthep" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-doi-suthep" data-clipboard-text="icon-thai-doi-suthep"></i>
+					</span>
+					<span data-balloon="icon-thai-golden-mount" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-golden-mount" data-clipboard-text="icon-thai-golden-mount"></i>
+					</span>
+					<span data-balloon="icon-thai-hualamphong" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-hualamphong" data-clipboard-text="icon-thai-hualamphong"></i>
+					</span>
+					<span data-balloon="icon-thai-mahanakorn" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-mahanakorn" data-clipboard-text="icon-thai-mahanakorn"></i>
+					</span>
+					<span data-balloon="icon-thai-monk" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-monk" data-clipboard-text="icon-thai-monk"></i>
+					</span>
+					<span data-balloon="icon-thai-myanmar-style-temple" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-myanmar-style-temple" data-clipboard-text="icon-thai-myanmar-style-temple"></i>
+					</span>
+					<span data-balloon="icon-thai-pang-leela" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-pang-leela" data-clipboard-text="icon-thai-pang-leela"></i>
+					</span>
+					<span data-balloon="icon-thai-pang-marnwichai" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-pang-marnwichai" data-clipboard-text="icon-thai-pang-marnwichai"></i>
+					</span>
+					<span data-balloon="icon-thai-pathomjade" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-pathomjade" data-clipboard-text="icon-thai-pathomjade"></i>
+					</span>
+					<span data-balloon="icon-thai-rama5" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-rama5" data-clipboard-text="icon-thai-rama5"></i>
+					</span>
+					<span data-balloon="icon-thai-rama8-bridge" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-rama8-bridge" data-clipboard-text="icon-thai-rama8-bridge"></i>
+					</span>
+					<span data-balloon="icon-thai-temple" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-temple" data-clipboard-text="icon-thai-temple"></i>
+					</span>
+					<span data-balloon="icon-thai-thammasat" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-thammasat" data-clipboard-text="icon-thai-thammasat"></i>
+					</span>
+					<span data-balloon="icon-thai-tuktuk" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-tuktuk" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
+					</span>
+					<span data-balloon="icon-thai-victory-monument" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-victory-monument" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
+					</span>
+					<span data-balloon="icon-thai-wat-arun" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-wat-arun" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
+					</span>
+					<span data-balloon="icon-thai-wat-prakaew" data-balloon-pos="down">
+						<i class="demo-icon icon-thai-wat-prakaew" data-clipboard-text="icon-thai-bhumibol-bridge"></i>
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="half-height grey-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 center">
+					<div class="half-flex-container">
+						<div class="section">
+							<h1 class="section-title">Contribute this project</h1>
+							<p class="body-text">If you like iconThai, remember that you can show your support by starring it on Github. It means a lot to us and it
+								only takes a couple of seconds!</p>
+							<a href="https://github.com/jukbot/iconThai" rel="noopener" target="_blank" class="button-outline">
+								<i class="fa fa-github" aria-hidden="true"></i> Visit Project</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<footer class="center grey-section">
+		<p class="footer-text">Designed and built by Nutn0n | Project licensed under the Apache 2.0.</p>
+	</footer>
+	<span id="toast" class="toast small">Copied to your clipboard</span>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+	<script>
+		const logo = document.getElementById('logo');
+		const title = document.getElementById('title');
+		logo.addEventListener("mouseover", () => {
+			title.innerText = "ไอคอนไทย";
+		});
+		logo.addEventListener("mouseout", () => {
+			title.innerText = "IconThai";
+		});
+		const toast = document.getElementById('toast');
+		const clipboard = new Clipboard('.demo-icon');
+		clipboard.on('success', (e) => {
+			let start = Date.now();
+			toast.style.opacity = "0.95";
+			let timer = setInterval(() => {
+				let timePassed = Date.now() - start;
+				if (timePassed >= 1000) {
+					clearInterval(timer);
+					return;
+				}
+				toast.style.opacity = "0";
+			}, 500);
+		});
+		clipboard.on('error', (e) => {
+			console.log(e);
+		});
+	</script>
 </body>
+
 </html>
