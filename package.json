@@ -22,7 +22,7 @@
   ],
   "license": "Apache-2.0",
   "main": "index.js",
-  "name": "iconthai",
+  "name": "icon-thai",
   "repository": {
     "type": "git",
     "url": "https://github.com/iconthai/iconthai.github.io.git"
