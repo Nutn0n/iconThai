@@ -12,8 +12,8 @@
     <img src="https://img.shields.io/github/release/jukbot/iconThai/all.svg" alt="npm version" />
   </a>
   <!-- Download -->
-  <a href="https://www.npmjs.com/package/iconThai">
-    <img src="http://img.shields.io/npm/dm/iconThai.svg" alt="Downloads" />
+  <a href="https://www.npmjs.com/package/icon-thai">
+    <img src="http://img.shields.io/npm/dm/icon-thai.svg" alt="Downloads" />
   </a>
   <!-- Quality -->
   <a href="http://packagequality.com/#?package=icon-thai">
