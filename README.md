@@ -50,7 +50,7 @@ Alternatively, you can use either GitCDN or RawGit to import the icon-font from 
 
 ### Using Rawgit
 ```html
-<link rel="stylesheet" href="https://cdn.rawgit.com/jukbot/iconThai/d34cd0b8/icon-thai.css">
+<link rel="stylesheet" href="https://cdn.rawgit.com/jukbot/iconThai/92f5c515/dist/icon-thai.css">
 ```
 
 ### Using Rawgit
